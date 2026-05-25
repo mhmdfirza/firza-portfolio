@@ -14,7 +14,12 @@ const About = () => {
         // about
       </p>
 
-      <div className="grid md:grid-cols-2 gap-12 md:gap-16">
+      <div className="grid md:grid-cols-1 gap-12 md:gap-16">
+        <div>
+          <p className="text-xs font-semibold text-white/40 uppercase tracking-widest mb-3">
+            Image
+          </p>
+        </div>
         {/* Text */}
         <div>
           <p className="text-base md:text-lg text-white/70 leading-relaxed">
@@ -31,7 +36,7 @@ const About = () => {
             <div>
               <span className="text-accent">$</span> whoami
             </div>
-            <div className="text-white/40">&gt; Your Name</div>
+            <div className="text-white/40">&gt; Muhammad Firzatullah Aqila Risfayadi</div>
 
             <div className="mt-6">
               <span className="text-accent">$</span> cat skills.txt

@@ -33,7 +33,7 @@ const Hero = () => {
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          Your Name
+          Muhammad Firzatullah Aqila Risfayadi
         </h1>
 
         {/* Role */}
@@ -42,7 +42,7 @@ const Hero = () => {
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          Full Stack Developer
+          Software Developer | Web Developer | Software & Cybersecurity Enthusiast | Software Engineer Student | Fullstack Developer & Tech Enthusiast
         </p>
       </div>
     </section>

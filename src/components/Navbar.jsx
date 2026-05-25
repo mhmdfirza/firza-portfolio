@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo/Name */}
         <div className="font-mono font-semibold text-lg tracking-tight">
-          <span className="text-accent">&lt;</span>Dev<span className="text-accent">/&gt;</span>
+          <span className="text-accent">&lt;</span>My Portfolio<span className="text-accent">/&gt;</span>
         </div>
 
         {/* Desktop Nav Links */}
