@@ -6,18 +6,18 @@ const Contact = () => {
   const contacts = [
     {
       label: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'muhammad.firzatullah.ar@gmail.com',
+      href: 'mailto:muhammad.firzatullah.ar@gmail.com',
     },
     {
       label: 'GitHub',
-      value: 'github.com/yourprofile',
-      href: 'https://github.com/yourprofile',
+      value: 'github.com/mhmdfirza',
+      href: 'https://github.com/mhmdfirza',
     },
     {
       label: 'LinkedIn',
-      value: 'linkedin.com/in/yourprofile',
-      href: 'https://linkedin.com/in/yourprofile',
+      value: 'linkedin.com/muhammad-firzatullah',
+      href: 'https://www.linkedin.com/in/muhammad-firzatullah-29a240356/',
     },
   ];
 
@@ -50,7 +50,7 @@ const Contact = () => {
             href={contact.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="scroll-reveal scroll-reveal-stagger block group"
+            className="block group"
             style={{
               '--stagger-delay': `${index * 150}ms`,
             }}

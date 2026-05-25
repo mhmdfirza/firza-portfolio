@@ -14,19 +14,19 @@ const About = () => {
         // about
       </p>
 
-      <div className="grid md:grid-cols-1 gap-12 md:gap-16">
-        <div>
-          <p className="text-xs font-semibold text-white/40 uppercase tracking-widest mb-3">
-            Image
-          </p>
+      <div className="grid md:grid-cols-3 gap-12 md:gap-16">
+        {/* Image */}
+        <div className="relative w-full h-64 md:h-full rounded-xl overflow-hidden">
+          <img
+            src="/profile.jpg"
+            alt="Profile"
+            className="w-full h-full object-cover object-top filter grayscale opacity-90 hover:grayscale-0 hover:opacity-100 transition-all rounded-xl"
+          />
         </div>
-        {/* Text */}
+        {/* Text */}       
         <div>
           <p className="text-base md:text-lg text-white/70 leading-relaxed">
-            I'm a Full Stack Developer passionate about building clean, scalable web applications
-            and systems. With expertise across frontend and backend technologies, I focus on
-            crafting elegant solutions to real-world problems. I believe in writing maintainable
-            code and creating tools that make a difference.
+            Software Engineering student with a background as Student Council President — accustomed to leading teams, strategizing, and delivering under pressure. I build data-driven, secure, and user-focused applications across the full stack, from web systems to security tooling and embedded integrations. Currently deepening expertise in Machine Learning, Computer Networking, and Modern Frameworks while contributing to real-world projects and open-source tooling.
           </p>
         </div>
 

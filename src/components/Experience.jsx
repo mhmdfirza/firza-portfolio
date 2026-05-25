@@ -66,12 +66,12 @@ const Experience = () => {
         {experiences.map((exp, index) => (
           <div
             key={exp.id}
-            className={`scroll-reveal scroll-reveal-stagger relative pl-12 md:pl-0 ${
+            className={`scroll-revealr elative pl-12 md:pl-0 ${
               index % 2 === 0 ? 'md:pr-1/2 md:text-right' : 'md:pl-1/2 md:ml-1/2'
             }`}
-            style={{
-              '--stagger-delay': `${index * 100}ms`,
-            }}
+            // style={{
+            //   '--stagger-delay': `${index * 100}ms`,
+            // }}
           >
             {/* Timeline dot */}
             <div className="absolute left-0 top-1 w-4 h-4 bg-accent rounded-full border-4 border-black/80 md:left-1/2 md:-translate-x-1/2 md:top-2" />

@@ -9,8 +9,8 @@ const Projects = () => {
       title: 'Sistem Sarpras',
       description: 'A school facility and infrastructure management system. Handles asset tracking, maintenance requests, and administrative reporting.',
       stack: ['Laravel', 'MySQL', 'Bootstrap', 'PHP'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      github: 'https://github.com/mhmdfirza/ukk-sistem-peminjaman-sarpras.git',
+      demo: 'https://github.com/mhmdfirza/ukk-sistem-peminjaman-sarpras.git',
     },
     {
       id: 2,
@@ -44,6 +44,14 @@ const Projects = () => {
       github: 'https://github.com',
       demo: 'https://example.com',
     },
+        {
+      id: 6,
+      title: 'Room Monitoring IoT System',
+      description: 'A personal security learning project — a deliberately vulnerable web app for practicing OWASP Top 10 exploits.',
+      stack: ['PHP', 'MySQL', 'HTML/CSS', 'Docker'],
+      github: 'https://github.com/mhmdfirza/smart-doorstep-monitoring-web-iot-integrated.git',
+      demo: 'https://github.com/mhmdfirza/smart-doorstep-monitoring-web-iot-integrated.git',
+    },
   ];
 
   return (
@@ -67,7 +75,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div
             key={project.id}
-            className="scroll-reveal scroll-reveal-stagger bg-white/[0.03] border border-white/[0.07] rounded-xl p-6 hover:bg-white/[0.05] hover:border-blue-500/40 hover:shadow-[0_0_24px_rgba(107,159,255,0.15)] transition-all group"
+            className="bg-white/[0.03] border border-white/[0.07] rounded-xl p-6 hover:bg-white/[0.05] hover:border-blue-500/40 hover:shadow-[0_0_24px_rgba(107,159,255,0.15)] transition-all group"
             style={{
               '--stagger-delay': `${index * 12}ms`,
             }}
