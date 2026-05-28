@@ -47,7 +47,7 @@ const Skills = () => {
         {skillGroups.map((group, groupIndex) => (
           <div
             key={group.category}
-            className="scroll-reveal scroll-reveal-stagger"
+            className=""
             style={{
               '--stagger-delay': `${groupIndex * 150}ms`,
             }}
