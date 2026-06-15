@@ -1,6 +1,12 @@
-# Full Stack Developer Portfolio
+# Muhammad Firzatullah AR - Full Stack Developer Portfolio (Development Branch)
 
-A modern, minimalist single-page portfolio website built with React, Tailwind CSS, and Vite. Inspired by the aesthetic of aaabadcode.com with ultra-minimal, typographically-driven design.
+This branch is for development purposes only.
+
+## Development Branch
+- Branch "main/dev/..." sudah tidak digunakan lagi
+- Branch "main/development/..." adalah branch utama yang merupakan hasil percabangan dari banyak pengembangan informasi atau fitur terbaru
+- Menambahkan script react refresh menyesuaikan dengan versi vite terbaru.
+- 
 
 ## Features
 
@@ -136,4 +142,4 @@ MIT — Feel free to use this as a template for your own portfolio.
 
 ## Author
 
-Your Name — [GitHub](https://github.com) | [LinkedIn](https://linkedin.com)
+Muhammad Firzatullah AR — [GitHub](https://github.com/mhmdfirza) | [LinkedIn](https://linkedin.com/in/muhammad-firzatullah-29a240356/)
