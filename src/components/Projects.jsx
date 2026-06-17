@@ -14,11 +14,7 @@ const Projects = () => {
     },
     {
       id: 2,
-<<<<<<< HEAD
-      title: 'Public Facility Parking Management System',
-=======
       title: 'Public Facility Parking Management System (On-Going)',
->>>>>>> development
       description: 'A smart parking management application with real-time slot monitoring and vehicle entry/exit logging.',
       stack: ['Laravel', 'React Starter Kit', 'MySQL', 'Bootstrap', 'PHP'],
       github: 'https://github.com/mhmdfirza/sistem-parkir-fasum',
@@ -26,19 +22,11 @@ const Projects = () => {
     },
     {
       id: 3,
-<<<<<<< HEAD
-      title: 'AI-Based Smart Attendance Management System',
-      description: 'A smart attendance management system that uses AI to detect and recognize faces to mark attendance.',
-      stack: ['React Native', 'Expo', 'TensorFlow.js', 'Redis'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
-=======
       title: 'AI-Based Smart Attendance Management System (On-Going)',
       description: 'A smart attendance management system that uses AI to detect and recognize faces to mark attendance.',
       stack: ['React Native', 'Expo', 'TensorFlow.js', 'Redis', 'PostgreSQL'],
       github: 'https://github.com/mhmdfirza/sistem-manajemen-absensi',
       demo: 'https://github.com/mhmdfirza/sistem-manajemen-absensi',
->>>>>>> development
     },
     {
       id: 4,
