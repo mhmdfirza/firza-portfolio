@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Sistem Sarpras',
+      title: 'School Infrastructure Loan Management System',
       description: 'A school facility and infrastructure management system. Handles asset tracking, maintenance requests, and administrative reporting.',
       stack: ['Laravel', 'MySQL', 'Bootstrap', 'PHP'],
       github: 'https://github.com/mhmdfirza/ukk-sistem-peminjaman-sarpras.git',
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Parking App',
+      title: 'Public Facility Parking Management System',
       description: 'A smart parking management application with real-time slot monitoring and vehicle entry/exit logging.',
       stack: ['React', 'Node.js', 'Express', 'MongoDB'],
       github: 'https://github.com',
@@ -22,9 +22,9 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'CareBand',
-      description: 'A wearable-integrated health monitoring app that tracks vitals and sends alerts to caregivers in real time.',
-      stack: ['Flutter', 'Firebase', 'IoT', 'REST API'],
+      title: 'AI-Based Smart Attendance Management System',
+      description: 'A smart attendance management system that uses AI to detect and recognize faces to mark attendance.',
+      stack: ['React Native', 'Expo', 'TensorFlow.js', 'Redis'],
       github: 'https://github.com',
       demo: 'https://example.com',
     },
@@ -41,10 +41,10 @@ const Projects = () => {
       title: 'IVWA',
       description: 'A personal security learning project — a deliberately vulnerable web app for practicing OWASP Top 10 exploits.',
       stack: ['PHP', 'MySQL', 'HTML/CSS', 'Docker'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      github: 'https://github.com/mhmdfirza/firza-ivwa',
+      demo: 'https://github.com/mhmdfirza/firza-ivwa',
     },
-        {
+    {
       id: 6,
       title: 'Room Monitoring IoT System',
       description: 'A personal security learning project — a deliberately vulnerable web app for practicing OWASP Top 10 exploits.',
