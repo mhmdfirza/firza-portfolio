@@ -46,11 +46,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'Room Monitoring IoT System',
-      description: 'A personal security learning project — a deliberately vulnerable web app for practicing OWASP Top 10 exploits.',
-      stack: ['PHP', 'MySQL', 'HTML/CSS', 'Docker'],
-      github: 'https://github.com/mhmdfirza/smart-doorstep-monitoring-web-iot-integrated.git',
-      demo: 'https://github.com/mhmdfirza/smart-doorstep-monitoring-web-iot-integrated.git',
+      title: 'E-Commerce Platform SEAPEDIA (On-Going)',
+      description: 'E-Commerce Platform that connects sellers, buyers, and delivery drivers in one marketplace experience',
+      stack: ['Laravel', 'React Starter Kit', 'PHP', 'MySQL', 'Tailwind CSS', 'Docker'],
+      github: 'https://github.com/mhmdfirza/seapedia-compfest-18',
+      demo: 'https://github.com/mhmdfirza/seapedia-compfest-18',
     },
   ];
 
