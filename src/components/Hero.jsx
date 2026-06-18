@@ -40,7 +40,7 @@ const Hero = () => {
           className={`text-lg md:text-xl text-white/50 font-light tracking-wide transition-all duration-1000 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
         >
-          Junior Fullstack Web Based System Developer | Computer Network & Cyber Security Enthusiast | Ex Head of Student Council SMKN 1 Boyolangu 2024
+          Junior Fullstack Web Based System Developer | Computer Network & Cyber Security Enthusiast
         </p>
       </div>
     </section>
