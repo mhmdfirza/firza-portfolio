@@ -14,43 +14,55 @@ const Projects = () => {
     },
     {
       id: 2,
+<<<<<<< HEAD
       title: 'Public Facility Parking Management System',
+=======
+      title: 'Public Facility Parking Management System (On-Going)',
+>>>>>>> information
       description: 'A smart parking management application with real-time slot monitoring and vehicle entry/exit logging.',
-      stack: ['React', 'Node.js', 'Express', 'MongoDB'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      stack: ['Laravel', 'React Starter Kit', 'MySQL', 'Bootstrap', 'PHP'],
+      github: 'https://github.com/mhmdfirza/sistem-parkir-fasum',
+      demo: 'https://github.com/mhmdfirza/sistem-parkir-fasum',
     },
     {
       id: 3,
+<<<<<<< HEAD
       title: 'AI-Based Smart Attendance Management System',
       description: 'A smart attendance management system that uses AI to detect and recognize faces to mark attendance.',
       stack: ['React Native', 'Expo', 'TensorFlow.js', 'Redis'],
       github: 'https://github.com',
       demo: 'https://example.com',
+=======
+      title: 'AI-Based Smart Attendance Management System (On-Going)',
+      description: 'A smart attendance management system that uses AI to detect and recognize faces to mark attendance.',
+      stack: ['React Native', 'Expo', 'TensorFlow.js', 'Redis', 'PostgreSQL'],
+      github: 'https://github.com/mhmdfirza/sistem-manajemen-absensi',
+      demo: 'https://github.com/mhmdfirza/sistem-manajemen-absensi',
+>>>>>>> information
     },
     {
       id: 4,
       title: 'Customize Hyprland',
       description: 'A curated Hyprland rice / dotfiles configuration for Arch Linux — featuring custom waybar, themes, and keybindings.',
-      stack: ['Shell', 'Hyprland', 'Linux', 'Waybar'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      stack: ['CSS', 'Shell', 'Hyprland', 'Arch Linux', 'Waybar'],
+      github: 'https://github.com/mhmdfirza/firza-waybar-hyprland',
+      demo: 'https://github.com/mhmdfirza/firza-waybar-hyprland',
     },
     {
       id: 5,
       title: 'IVWA',
       description: 'A personal security learning project — a deliberately vulnerable web app for practicing OWASP Top 10 exploits.',
       stack: ['PHP', 'MySQL', 'HTML/CSS', 'Docker'],
-      github: 'https://github.com',
-      demo: 'https://example.com',
+      github: 'https://github.com/mhmdfirza/firza-ivwa',
+      demo: 'https://github.com/mhmdfirza/firza-ivwa',
     },
     {
       id: 6,
-      title: 'Room Monitoring IoT System',
-      description: 'A personal security learning project — a deliberately vulnerable web app for practicing OWASP Top 10 exploits.',
-      stack: ['PHP', 'MySQL', 'HTML/CSS', 'Docker'],
-      github: 'https://github.com/mhmdfirza/smart-doorstep-monitoring-web-iot-integrated.git',
-      demo: 'https://github.com/mhmdfirza/smart-doorstep-monitoring-web-iot-integrated.git',
+      title: 'E-Commerce Platform SEAPEDIA (On-Going)',
+      description: 'E-Commerce Platform that connects sellers, buyers, and delivery drivers in one marketplace experience',
+      stack: ['Laravel', 'React Starter Kit', 'PHP', 'MySQL', 'Tailwind CSS', 'Docker'],
+      github: 'https://github.com/mhmdfirza/seapedia-compfest-18',
+      demo: 'https://github.com/mhmdfirza/seapedia-compfest-18',
     },
   ];
 
