@@ -40,7 +40,7 @@ const Hero = () => {
           className={`text-lg md:text-xl text-white/50 font-light tracking-wide transition-all duration-1000 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
         >
-          Software Developer | Web Developer | Software & Cybersecurity Enthusiast | Software Engineer Student | Fullstack Developer & Tech Enthusiast
+          Junior Fullstack Web Based System Developer | Computer Network & Cyber Security Enthusiast
         </p>
         <button className="mt-6 px-6 py-3 bg-accent text-black font-semibold rounded-lg hover:bg-white transition-colors">Contact Me</button>
       </div>

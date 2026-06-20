@@ -14,19 +14,12 @@ const About = () => {
         // about
       </p>
 
-      <div className="grid md:grid-cols-3 gap-12 md:gap-16">
-        {/* Image */}
-        <div className="relative w-full h-64 md:h-full rounded-xl overflow-hidden">
-          <img
-            src="/profile.jpg"
-            alt="Profile"
-            className="w-full h-full object-cover object-top filter grayscale opacity-90 hover:grayscale-0 hover:opacity-100 transition-all rounded-xl"
-          />
-        </div>
-        {/* Text */}       
+      <div className="grid md:grid-cols-2 gap-12 md:gap-16">
+        {/* Text */}
         <div>
           <p className="text-base md:text-lg text-white/70 leading-relaxed">
-            Software Engineering student with a background as Student Council President — accustomed to leading teams, strategizing, and delivering under pressure. I build data-driven, secure, and user-focused applications across the full stack, from web systems to security tooling and embedded integrations. Currently deepening expertise in Machine Learning, Computer Networking, and Modern Frameworks while contributing to real-world projects and open-source tooling.
+            {/* Software Engineering student with a background as Student Council President — accustomed to leading teams, strategizing, and delivering under pressure. I build data-driven, secure, and user-focused applications across the full stack, from web systems to security tooling and embedded integrations. Currently deepening expertise in Machine Learning, Computer Networking, and Modern Frameworks while contributing to real-world projects and open-source tooling. */}
+            I am a Junior Full Stack Web Based System Developer obviously specializing in web development with a strong interest in computer networks, and cybersecurity. Throughout my journey, I have gained valuable experience that enhanced both my technical and interpersonal skills — from joining various competitions and leadership programs to serving as the Student Council President for one year, and completing internships and professional training. I possess strong skills in web and software development, database management, and project coordination, with proficiency in Python, React, Laravel, PHP, JavaScript, MySQL and Arch Linux. I’m passionate about continuous learning, teamwork, and creating innovative digital solutions that make a real impact.
           </p>
         </div>
 
