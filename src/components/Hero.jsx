@@ -16,7 +16,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section className="scroll relative h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Parallax Blob */}
       <div
         className="parallax-blob"
@@ -42,7 +42,13 @@ const Hero = () => {
         >
           Junior Fullstack Web Based System Developer | Computer Network & Cyber Security Enthusiast
         </p>
-        <button className="mt-6 px-6 py-3 bg-accent text-black font-semibold rounded-lg hover:bg-white transition-colors">Contact Me</button>
+
+        {/* CTA Button */}
+        <button className={`relative mt-6 px-6 py-3 bg-white text-black font-light rounded-lg border border-white/20 hover:bg-black hover:text-white transition-all duration-1000 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}>
+          Contact Me
+        </button>
+
       </div>
     </section>
   );
