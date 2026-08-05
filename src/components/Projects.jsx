@@ -50,7 +50,7 @@ const Projects = () => {
       description: 'E-Commerce Platform that connects sellers, buyers, and delivery drivers in one marketplace experience',
       stack: ['Laravel', 'React Starter Kit', 'PHP', 'MySQL', 'Tailwind CSS', 'Docker'],
       github: 'https://github.com/mhmdfirza/seapedia-compfest-18',
-      demo: 'https://github.com/mhmdfirza/seapedia-compfest-18',
+      demo: 'https://seapedia-compfest-18.vercel.app/',
     },
   ];
 
