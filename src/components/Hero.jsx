@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Contact from './Contact';
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -45,12 +44,12 @@ const Hero = () => {
         </p>
 
         {/* CTA Button */}
-        <button className={`relative mt-6 px-8 py-2.5 bg-white text-black font-light rounded-lg hover:bg-black hover:text-white transition-all duration-500 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+        {/* <button className={`relative mt-6 px-8 py-2.5 bg-white text-black font-light rounded-lg hover:bg-black hover:text-white transition-all duration-500 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
           onClick={() => scrollIntoView('contact')}
         >
           Contact Me
-        </button>
+        </button> */}
 
       </div>
     </section>
