@@ -13,7 +13,7 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: 'Internship at Balai Besar Pengembangan Penjaminan Mutu Pendidikan Vokasi Malang',
+      title: 'Internship at BBPPMPV BOE Malang',
       role: 'Junior Software Intern',
       period: 'July 2025 - December 2025',
       description: 'Developed and maintained web-based applications using Delphi, Pascal, and MySQL, contributing to the improvement of educational technology tools.',

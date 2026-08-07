@@ -9,7 +9,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-gradient-to-b from-black via-slate-950 to-black min-h-screen">
+    // <div className="bg-gradient-to-b from-black via-slate-950 to-black min-h-screen">
+    <div class="bg-gradient-to-b from-black via-blue-950 to-black min-h-screen">
       <Navbar />
       <Hero />
       <About />
@@ -18,7 +19,7 @@ function App() {
       <Experience />
       <Contact />
       <Footer />
-    </div>
+    </div >
   );
 }
 

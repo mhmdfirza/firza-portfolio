@@ -16,7 +16,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section className="scroll relative h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Parallax Blob */}
       <div
         className="parallax-blob"
@@ -42,6 +42,15 @@ const Hero = () => {
         >
           Junior Fullstack Web Based System Developer | Computer Network & Cyber Security Enthusiast
         </p>
+
+        {/* CTA Button */}
+        {/* <button className={`relative mt-6 px-8 py-2.5 bg-white text-black font-light rounded-lg hover:bg-black hover:text-white transition-all duration-500 delay-200 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+          }`}
+          onClick={() => scrollIntoView('contact')}
+        >
+          Contact Me
+        </button> */}
+
       </div>
     </section>
   );
