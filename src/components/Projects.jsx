@@ -10,7 +10,7 @@ const Projects = () => {
       description: 'A school facility and infrastructure management system. Handles asset tracking, maintenance requests, and administrative reporting.',
       stack: ['Laravel', 'MySQL', 'Bootstrap', 'PHP'],
       github: 'https://github.com/mhmdfirza/ukk-sistem-peminjaman-sarpras.git',
-      demo: 'https://github.com/mhmdfirza/ukk-sistem-peminjaman-sarpras.git',
+      demo: 'https://sistem-peminjaman-sarpras.vercel.app',
     },
     {
       id: 2,
@@ -30,11 +30,11 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Customize Hyprland',
-      description: 'A curated Hyprland rice / dotfiles configuration for Arch Linux — featuring custom waybar, themes, and keybindings.',
-      stack: ['CSS', 'Shell', 'Hyprland', 'Arch Linux', 'Waybar'],
-      github: 'https://github.com/mhmdfirza/firza-waybar-hyprland',
-      demo: 'https://github.com/mhmdfirza/firza-waybar-hyprland',
+      title: 'Personal Finance App',
+      description: 'A personal finance application that helps users track their income and expenses.',
+      stack: ['React Native', 'Expo', 'TensorFlow.js', 'Redis', 'PostgreSQL'],
+      github: 'https://github.com/mhmdfirza/finance-app',
+      demo: 'https://github.com/mhmdfirza/finance-app',
     },
     {
       id: 5,
@@ -46,11 +46,11 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'E-Commerce Platform SEAPEDIA (On-Going)',
+      title: 'E-Commerce Platform SEAPEDIA',
       description: 'E-Commerce Platform that connects sellers, buyers, and delivery drivers in one marketplace experience',
       stack: ['Laravel', 'React Starter Kit', 'PHP', 'MySQL', 'Tailwind CSS', 'Docker'],
       github: 'https://github.com/mhmdfirza/seapedia-compfest-18',
-      demo: 'https://seapedia-compfest-18.vercel.app/',
+      demo: 'https://seapedia-compfest-18.vercel.app',
     },
   ];
 
